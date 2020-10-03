@@ -48,4 +48,15 @@ public class AddingMachine {
 		  total = 0;
 		  history = "0";
 	  }
+	  // begin testing
+	  public static void main(String[] args) {
+			
+			AddingMachine myAddingMachine = new AddingMachine();
+			System.out.println(myAddingMachine.toString());
+			myAddingMachine.add(4);
+			myAddingMachine.subtract(2);
+			myAddingMachine.add(5);
+			System.out.println(myAddingMachine.toString());
+		}
+	  // end testing
 	}
